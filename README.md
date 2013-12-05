@@ -429,7 +429,8 @@ var TestApp = Backbone.Router.extend({
   person: function(query, page) {
 		// Do some stuff
   }
-});```
+});
+```
 
 
 --> ```/person/12/p:101```
@@ -458,7 +459,8 @@ App.Router.map(function() {
 	this.resource('person', { path: '/:person_id' }, function() {
 		this.resource('p', { path: '/:p_id' });
 	});
-});```
+});
+```
 
 --> ```/person/12/p:101```
 
